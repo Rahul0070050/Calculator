@@ -11,35 +11,38 @@
 <body> 
     
     <div class="container">
+        <div class="text">
+            <h3>samble calculator</h3>
+        </div>
         <div class="calculetor">
-                <label for="number" id="Screen" class="mx-auto py-auto"></label>
+                <input for="number" placeholder="000000" id="Screen" class="px-2 mx-auto py-auto">
             <div class="calculetor-buttons">
                 <div class="clear">
                     <button class="btn btn-secondary px-5" id="clearItem" onclick="clearItem()">Clear</button>
                 </div>
                 <div class="rows">
-                    <button class="btn btn-secondary" id="7" onclick="btn(this)">7</button>
-                    <button class="btn btn-secondary" id="8" onclick="btn(this)">8</button>
-                    <button class="btn btn-secondary" id="9" onclick="btn(this)">9</button>
-                    <button class="btn btn-secondary" id="divition" onclick="divition()">/</button>
+                    <button class="btn btn-secondary" onclick="btn(7)">7</button>
+                    <button class="btn btn-secondary" onclick="btn(8)">8</button>
+                    <button class="btn btn-secondary" onclick="btn(9)">9</button>
+                    <button class="btn btn-secondary" onclick="btn('/')">/</button>
                 </div>
                 <div class="rows">
-                    <button class="btn btn-secondary" id="4" onclick="btn(this)">4</button>
-                    <button class="btn btn-secondary" id="5" onclick="btn(this)">5</button>
-                    <button class="btn btn-secondary" id="6" onclick="btn(this)">6</button>
-                    <button class="btn btn-secondary" id="mutiplecation" onclick="mutiplecation()">x</button>
+                    <button class="btn btn-secondary" onclick="btn(4)">4</button>
+                    <button class="btn btn-secondary" onclick="btn(5)">5</button>
+                    <button class="btn btn-secondary" onclick="btn(6)">6</button>
+                    <button class="btn btn-secondary" onclick="btn('*')">x</button>
                 </div>
                 <div class="rows">
-                    <button class="btn btn-secondary" id="1" onclick="btn(this)">1</button>
-                    <button class="btn btn-secondary" id="2" onclick="btn(this)">2</button>
-                    <button class="btn btn-secondary" id="3" onclick="btn(this)">3</button>
-                    <button class="btn btn-secondary" id="subtraction" onclick="subtraction()">-</button>
+                    <button class="btn btn-secondary" onclick="btn(1)">1</button>
+                    <button class="btn btn-secondary" onclick="btn(2)">2</button>
+                    <button class="btn btn-secondary" onclick="btn(3)">3</button>
+                    <button class="btn btn-secondary" onclick="btn('-')">-</button>
                 </div>
                 <div class="rows">
-                    <button class="btn btn-secondary" id="s" onclick="btn(this)">S</button>
-                    <button class="btn btn-secondary" id="0" onclick="btn(this)">0</button>
-                    <button class="btn btn-secondary" id="." onclick="btn(this)">.</button>
-                    <button class="btn btn-secondary" id="equalTo" onclick="equalTo()">=</button>
+                    <button class="btn btn-secondary" onclick="btn('0')">0</button>
+                    <button class="btn btn-secondary" onclick="btn('.')">.</button>
+                    <button class="btn btn-secondary" onclick=" equalTo()">=</button>
+                    <button class="btn btn-secondary" id="equalTo" onclick="btn('+')">+</button>
                 </div>
             </div>
         </div>
