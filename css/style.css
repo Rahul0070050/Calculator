@@ -21,6 +21,7 @@ body{
     background-color: rgb(28, 43, 43);
 }
 .calculetor input{
+    border: transparent;
     font-size: xx-large;
     text-align: right;
     background-color: rgb(130, 127, 133);
