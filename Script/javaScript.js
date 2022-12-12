@@ -1,6 +1,6 @@
 document.getElementById("Screen").disabled = true;
 function btn(val) {
-    var number = document.getElementById("Screen").value += val;
+    let number = document.getElementById("Screen").value += val;
     console.log(number);
 }
 
@@ -11,8 +11,18 @@ function clearItem() {
 
 function equalTo() {
     try{
-        var num = document.getElementById("Screen").value
-        var result = eval(num);
+        let num = document.getElementById("Screen").value
+        let result = eval(num);
+        document.getElementById("Screen").value = result;
+    }catch{
+        
+    }
+}
+    
+function clearOneItem() {
+    try{
+        let num = document.getElementById("Screen").value
+        let result = num.slice(0,-1);
         document.getElementById("Screen").value = result;
     }catch{
         

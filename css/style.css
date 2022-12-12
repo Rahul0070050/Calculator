@@ -24,12 +24,17 @@ body{
     border: transparent;
     font-size: xx-large;
     text-align: right;
+    color: black;
+    padding: 0 1rem !important;
     background-color: rgb(130, 127, 133);
     height: 50px;
     width: 85%;
     margin: 30px auto;
     border-radius: 20px;
     overflow: hidden;
+}
+.calculetor input::placeholder {
+    color: rgb(67, 67, 67);
 }
 .calculetor .clear{
     width: 95%;
