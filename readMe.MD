@@ -1,6 +1,6 @@
 # **Calculator**
 
-### this is a basic calculator project, we can perform simple math oprations here. **Now the project is not Active**
+this is a basic calculator project, we can perform simple math oprations here. **Now the project is not Active**
 
 <br/>
 
